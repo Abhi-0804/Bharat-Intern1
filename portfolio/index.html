@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ABHISHEK TANAJI - Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Abhishek Halakate
+          <div class="contact_info">
+            <img
+              src="html_finalprojimages/envelope.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            Abhishek@email.com
+          </div>
+          <div style="clear: both"></div>
+          <div class="contact_info">
+            <img
+              src="html_finalprojimages/phone.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            +1234567899
+          </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img
+          src="https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-boy-man-round-frame-vector-cartoon-flat-illustration_551425-19.jpg?w=740"
+          class="profile_image"
+        />
+      </div>
+
+      <div>
+        <h1>
+          I'm Abhishek Halakate
+          <img src="html_finalprojimages/waving-hand.png" width="60px" />
+        </h1>
+        <p>
+          A second-year student studying Artificial Intelligence and Machine
+          Learning (AIML) is at an exciting phase of his academic journey.
+          Immersed in the intricacies of algorithms, data structures, and neural
+          networks, he is beginning to understand the profound impact of AI on
+          various industries. His coursework includes hands-on projects that
+          challenge him to develop innovative solutions, from designing
+          intelligent systems to creating predictive models. Eager to explore
+          the latest advancements, he often participates in hackathons and
+          collaborates with peers on research initiatives, driven by a passion
+          for technology and a vision to contribute to the ever-evolving field
+          of AIML.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear: both"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png" />
+          <h6>HTML</h6>
+          <p>1years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg" />
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img
+            src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
+          />
+          <h6>Python</h6>
+          <p>1 year experience</p>
+        </div>
+
+        <div class="skill">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+          />
+          <h6>c++</h6>
+          <p>3 years experience</p>
+        </div>
+        <div class="skill">
+          <img
+            src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png"
+          />
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div style="clear: both"></div>
+
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>Weather application</h3>
+          <ul>
+            <li>
+              Developed a Weather application which summarizes about the real
+              time weather
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="project-card">
+          <h3>TO-DO LIST APP</h3>
+          <ul>
+            <li>
+              Developed TO-DO list app which keeps tab on what things to be done
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="project-card">
+          <h3>Netflix clone system</h3>
+          <ul>
+            <li>
+              Created a styled multi-page website clone of netflix gateway
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div style="clear: both"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear: both"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abhi was a resident software engineer at my computing business for
+          over five years, and his skills and knowledge were unparalleled. Along
+          with that, however, he brought an energy and dependability that made
+          him crucial to our company.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abhi did an excellent job in staying up to date on software
+          developments and thus finding new solutions. He had the most extensive
+          and diverse knowledge of software at our company, and others even
+          sought him out for advice.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abhi was tasked with finding software solutions and implementing
+          workflow processes by assessing operational capability,
+          troubleshooting and diagnostics, designing and calibrating system
+          specifications, analyzing system processes, and other related duties.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)" /> <br />
+          <textarea
+            id="new_recommendation"
+            cols="500"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onClick="addRecommendation()">
+              Submit
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="white"
+          width="63px"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" />
+      <h3>Thank You For leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
